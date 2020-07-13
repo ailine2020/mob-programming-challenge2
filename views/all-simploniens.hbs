@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<hr>
+
+<ul id="all-simploniens" class="list simploniens">
+    {{#each users}}
+    <li class="simplonien">
+        {{this.name}}, {{this.email}},{{this.favorite_langage}}
+    </li>
+    {{/each}}
+</ul>
